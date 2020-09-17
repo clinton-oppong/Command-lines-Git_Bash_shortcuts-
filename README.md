@@ -91,4 +91,4 @@ Background colors:
 \e[47m = Light Gray
 
 some credit goes to: 
-url(https://ss64.com/bash/syntax-prompt.html
+url(https://ss64.com/bash/syntax-prompt.html)
