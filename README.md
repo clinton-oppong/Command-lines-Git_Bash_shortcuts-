@@ -6,9 +6,13 @@
 -simple customize my terminal color, username, and hostname-
 
 PS1 – Default interactive prompt (this is the variable most often customized)
+
 PS2 – Continuation interactive prompt (when a long command is broken up with \ at the end of the line) default=">"
-PS3 – Prompt used by “select” loop inside a shell script
+
 PS4 – Prompt used when a shell script is executed in debug mode (“set -x” will turn this on) default ="++"
+ 
+PS3 – Prompt used by “select” loop inside a shell script
+
 PROMPT_COMMAND - If this variable is set and has a non-null value, then it will be executed just before the PS1 variable.
 
 Set your prompt by changing the value of the PS1 environment variable, as follows:
@@ -63,32 +67,57 @@ Special prompt variable characters:
  \]   End a sequence of non-printing characters.
  
  \e[0;30m = Dark Gray
+ 
 \e[1;30m = Bold Dark Gray
+
 \e[0;31m = Red
+
 \e[1;31m = Bold Red
+
 \e[0;32m = Green
+
 \e[1;32m = Bold Green
+
 \e[0;33m = Yellow
+
 \e[1;33m = Bold Yellow
+
 \e[0;34m = Blue
+
 \e[1;34m = Bold Blue
+
 \e[0;35m = Purple
+
 \e[1;35m = Bold Purple
+
 \e[0;36m = Turquoise
+
 \e[1;36m = Bold Turquoise
+
 \e[0;37m = Light Gray
+
 \e[1;37m = Bold Light Gray
+
 
 Background colors:
 
 \e[40m = Dark Gray
+
 \e[41m = Red
+
 \e[42m = Green
+
 \e[43m = Yellow
+
 \e[44m = Blue
+
 \e[45m = Purple
+
 \e[46m = Turquoise
+
 \e[47m = Light Gray
 
+
 some credit goes to: 
+
 url(https://ss64.com/bash/syntax-prompt.html)
