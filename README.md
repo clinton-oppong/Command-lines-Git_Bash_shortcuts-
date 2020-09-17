@@ -38,7 +38,7 @@ Special prompt variable characters:
  \t   The time, in 24-hour HH:MM:SS format. 
  \T   The time, in 12-hour HH:MM:SS format. 
  \@   The time, in 12-hour am/pm format. 
-
+ 
  \u   The username of the current user. 
 
  \v   The version of Bash (e.g., 2.00) 
