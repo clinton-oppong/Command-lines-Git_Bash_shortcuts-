@@ -4,6 +4,7 @@
 *my first task*
 
 -simple customize my terminal color, username, and hostname-
+
 $ PS1 = " "  allows the user to change the next command or all the following lines names to what PS1 was.
 
 Example.
