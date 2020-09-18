@@ -120,4 +120,10 @@ Background colors:
 
 some credit goes to: 
 
-url(https://ss64.com/bash/syntax-prompt.html)
+url(https://ss64.com/bash/syntax-prompt.html
+
+#Update 2#
+i managed to complete the terminal with background and also font size. 
+
+               ############# COMPLETED #############
+
